@@ -1,9 +1,0 @@
-C:\Projects\PosilekDlaLekarza.API\DoctorMeal\DoctorMeal.Domain\bin\Debug\netcoreapp3.1\DoctorMeal.Domain.deps.json
-C:\Projects\PosilekDlaLekarza.API\DoctorMeal\DoctorMeal.Domain\bin\Debug\netcoreapp3.1\DoctorMeal.Domain.dll
-C:\Projects\PosilekDlaLekarza.API\DoctorMeal\DoctorMeal.Domain\bin\Debug\netcoreapp3.1\DoctorMeal.Domain.pdb
-C:\Projects\PosilekDlaLekarza.API\DoctorMeal\DoctorMeal.Domain\obj\Debug\netcoreapp3.1\DoctorMeal.Domain.csprojAssemblyReference.cache
-C:\Projects\PosilekDlaLekarza.API\DoctorMeal\DoctorMeal.Domain\obj\Debug\netcoreapp3.1\DoctorMeal.Domain.csproj.CoreCompileInputs.cache
-C:\Projects\PosilekDlaLekarza.API\DoctorMeal\DoctorMeal.Domain\obj\Debug\netcoreapp3.1\DoctorMeal.Domain.AssemblyInfoInputs.cache
-C:\Projects\PosilekDlaLekarza.API\DoctorMeal\DoctorMeal.Domain\obj\Debug\netcoreapp3.1\DoctorMeal.Domain.AssemblyInfo.cs
-C:\Projects\PosilekDlaLekarza.API\DoctorMeal\DoctorMeal.Domain\obj\Debug\netcoreapp3.1\DoctorMeal.Domain.dll
-C:\Projects\PosilekDlaLekarza.API\DoctorMeal\DoctorMeal.Domain\obj\Debug\netcoreapp3.1\DoctorMeal.Domain.pdb
