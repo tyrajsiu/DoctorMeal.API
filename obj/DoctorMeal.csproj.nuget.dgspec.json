@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SESA480535\\source\\repos\\1\\DoctorMeal\\DoctorMeal.csproj": {}
+    "C:\\Projects\\PosilekDlaLekarza.API\\DoctorMeal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SESA480535\\source\\repos\\1\\DoctorMeal\\DoctorMeal.csproj": {
+    "C:\\Projects\\PosilekDlaLekarza.API\\DoctorMeal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SESA480535\\source\\repos\\1\\DoctorMeal\\DoctorMeal.csproj",
+        "projectUniqueName": "C:\\Projects\\PosilekDlaLekarza.API\\DoctorMeal.csproj",
         "projectName": "DoctorMeal",
-        "projectPath": "C:\\Users\\SESA480535\\source\\repos\\1\\DoctorMeal\\DoctorMeal.csproj",
+        "projectPath": "C:\\Projects\\PosilekDlaLekarza.API\\DoctorMeal.csproj",
         "packagesPath": "C:\\Users\\SESA480535\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SESA480535\\source\\repos\\1\\DoctorMeal\\obj\\",
+        "outputPath": "C:\\Projects\\PosilekDlaLekarza.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
