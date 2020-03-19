@@ -1,10 +1,7 @@
 ﻿@model IEnumerable<DoctorMeal.Data.Entities.WaitingToConfirmRestaurant>
-@{
-    ViewData["Title"] = "Home Page";
-}
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Awaiting clients</p>
+    @*<img width="860" height="860" src="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_860/http://posilekdlalekarza.pl/wp-content/uploads/2018/04/ikona.png" class="custom-logo aux-logo-image aux-logo-image1 aux-logo-light" alt="#PosilekDlaLekarza" srcset="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_860/http://posilekdlalekarza.pl/wp-content/uploads/2018/04/ikona.png 860w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_300/http://posilekdlalekarza.pl/wp-content/uploads/2018/04/ikona-300x300.png 300w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_150/http://posilekdlalekarza.pl/wp-content/uploads/2018/04/ikona-150x150.png 150w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_768/http://posilekdlalekarza.pl/wp-content/uploads/2018/04/ikona-768x768.png 768w" sizes="(max-width: 860px) 100vw, 860px">*@
+    <p>Restauracje oczekujące na akceptację</p>
 </div>
 <table class="table">
     <thead>
@@ -53,9 +50,9 @@
                     @Html.DisplayFor(modelItem => item.Confirmed)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edytuj</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Szczegóły</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Usuń</a>
                 </td>
             </tr>
         }

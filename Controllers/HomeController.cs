@@ -8,6 +8,9 @@ using Microsoft.Extensions.Logging;
 using DoctorMeal.Models;
 using DoctorMeal.Data;
 using Microsoft.EntityFrameworkCore;
+using System.IO;
+using Newtonsoft.Json;
+using DoctorMeal.Data.Entities;
 
 namespace DoctorMeal.Controllers
 {
@@ -24,6 +27,14 @@ namespace DoctorMeal.Controllers
 
         public async Task<IActionResult> Index()
         {
+            //using (StreamReader r = new StreamReader("C:/Projects/PosilekDlaLekarza.API/restauratnsData.json"))
+            //{
+            //    string json = r.ReadToEnd();
+            //    List<Restaurant> items = JsonConvert.DeserializeObject<List<Restaurant>>(json);
+            //    _context.Restaurant.AddRange(items);
+            //    _context.SaveChanges();
+            //}
+
             if (User.Identity.IsAuthenticated)
             {
                 return View(await _context.WaitingToConfirmRestaurant.ToListAsync());
@@ -32,11 +43,6 @@ namespace DoctorMeal.Controllers
             {
                 return LocalRedirect("/Identity/Account/Login");
             }
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

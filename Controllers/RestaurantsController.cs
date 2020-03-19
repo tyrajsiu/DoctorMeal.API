@@ -145,6 +145,19 @@ namespace DoctorMeal.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [HttpGet]
+        public async Task<JsonResult> GetAll() 
+        {
+            return Json(await _context.Restaurant.ToListAsync());
+        }
+
+        public async Task<JsonResult> Get(int id)
+        {
+            var restaurant = _context.Restaurant
+                .FirstOrDefaultAsync(m => m.Id == id);
+            return Json(await restaurant);
+        }
+
         private bool RestaurantExists(int id)
         {
             return _context.Restaurant.Any(e => e.Id == id);
